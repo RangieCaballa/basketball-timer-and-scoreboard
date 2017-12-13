@@ -1,0 +1,69 @@
+ol{
+  margin: 10px;
+  font-size: 3em;
+  height: 50px;
+
+}
+p {
+  margin: 20px;
+  font-size: 2em;
+  font-family: arial black;
+  text-align: center;
+  color: red;
+  
+}
+
+ul {
+  margin: 20px;
+  font-size: 3em;
+  font-family: arial black;
+  text-align: center;
+  color: red;
+  
+  height: 50px
+}
+
+li {
+  display: inline-block;
+  background-color: black;
+  border-radius: 80px;
+  width: 50px;
+  height: 30px;
+  padding-top: 20px;
+  line-height: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+  color: red;
+}
+
+body { 
+  background-color: black;
+  font-family: arial;
+  color: #FAFAFA;
+  text-transform: uppercase;
+}
+
+
+input{
+  border-style: solid;
+  color:red;
+  height:30px;
+  width:60px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+div{
+  text-align: center;
+}
+
+span{
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+
+}

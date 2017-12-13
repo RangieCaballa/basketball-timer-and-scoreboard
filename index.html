@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scoreboard</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+ 
+    <ol id="reset"><img src= "../www/img/resetclock.png"/></ol>
+ 
+  <p id="time_left"></p>
+  
+<ul>
+  <li id="playpause">▶</li>
+</ul>
+
+<div id="home_div">
+    <span>HOME</span><br>
+    <input type="button" value="-" id="minusHome" onclick="minusHome()"> 
+    <input type="text" size="10" value="0" id="home">
+    <input type="button" value="+" id="plusHome" onclick="plusHome()">
+</div>
+<br>
+
+<div id="guest_div">
+    <span>GUEST</span><br>
+    <input type="button" value="-" id="minusGuest" onclick="minusGuest()">
+    <input type="text" size="10" value="0" id="guest">
+    <input type="button" value="+" id="plusGuest" onclick="plusGuest()">
+</div>
+
+  <p id="shotclock"></p>
+<ul>
+  <li id="resetclock">↺</li>
+</ul>
+
+
+<center><a href="javascript:playSound('buzzer');"><img src="../www/img/buzzer.png" alt="buzzer" /></a></center>
+
+  <!-- Link -->
+    <a href="javascript:playSound('buzzer')"></a>
+  </div>
+
+  <!--Audio File-->
+  <audio id="buzzer"  src="../www/audio/airhorn.mp3" preload="auto"></audio>
+
+
+  <script src='js/cloudflare.js'></script>
+  <script src='js/cloudflare-reactDom.js'></script>
+
+  <script  src="js/index.js"></script>
+   
+
+</body>
+</html>
